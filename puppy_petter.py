@@ -46,9 +46,9 @@ def end():
         if answer == 3:
             print("Well done! that was the correct answer, you shall now join me as my personal petter")
         elif answer == 2:
-            print("Wrong!! you shall gain power but be forever hunted by those who seek to take it")
+            print("You shall gain power but be forever hunted by those who seek to take it")
         elif answer == 1:
-            print("Wrong!! you shall gain all the money you could evver want but you will be forever hunted by those who seek to take it")
+            print("You shall gain all the money you could evver want but you will be forever hunted by those who seek to take it")
         else:
             print("That wasnt one of the options, I'm surprised by how stuipid you are")
 
@@ -64,7 +64,7 @@ while True:
     else:
         action = input("Would you like to pet {} again? (y/n): ".format(name)).strip().lower()
     pet()
-    print(num_pets)
+    #print(num_pets)
     end()
     if action == "q" or num_pets >= 10:
         break
